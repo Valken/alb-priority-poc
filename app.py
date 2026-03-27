@@ -1,6 +1,9 @@
 import aws_cdk as cdk
 from alb_priority_poc.alb_priority_poc_stack import AlbPriorityPocStack
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = cdk.App()
 AlbPriorityPocStack(
