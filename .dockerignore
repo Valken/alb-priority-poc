@@ -1,0 +1,39 @@
+# VCS
+.git
+.gitignore
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Tooling caches
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# CDK output
+cdk.out/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
